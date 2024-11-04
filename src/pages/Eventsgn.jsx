@@ -4,13 +4,13 @@ import React from "react";
 
 export default function Eventsgn() {
     return (
-        <section className="portfolio--section" id="MyPortfolio">
-            <div className="portfolio--container-box">
-                <div className="portfolio--container">
-                    <p style={{fontSize:"25px" ,fontFamily:"monospace"}} className="sub--title">SGN Gardens & Banquets</p>
-                    <h2 className="skills--section--heading">Events</h2>
-                </div>
-                <div>
+        <section className="skills--section" id="mySkillss">
+            <div className="portfolio--container">
+            <p style={{fontSize:"25px",fontFamily:"monospace"}} className="section--title">SGN Gardens & Banquets</p>
+                <h2 className="skills--section--heading">Events</h2>
+                <p style={{fontSize:"20px",fontFamily:"monospace"}} className="section--title">MOB:8769612896</p>
+            </div>
+            <div>
                     <button className="btn btn-github" onClick={()=> {
                         window.open("https://maps.app.goo.gl/aCfVVyR1T8gjK8T7A")
                     }}>
@@ -31,12 +31,11 @@ export default function Eventsgn() {
                         Visit Location
                     </button>
                 </div>
-            </div>
             <div className="skills--section--container">
-            {data?.skills2?.map((item, index)  => (
-                    <div key={index}  className="skills--section--card">
+                {data?.skills2?.map((item, index) => (
+                    <div key={index} className="skills--section--card">
                         <div className="skills--section--img">
-                            <img src={item.src} style={{width:"250px"}} alt="Product Chain" />
+                            <img src={item.src} style={{width:"250px"}}  alt="Product Chain" />
                         </div>
                         <div className="skills--section--card--content">
                             <h3 className="skills--section--title">{item.title}</h3>

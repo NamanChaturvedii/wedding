@@ -75,7 +75,7 @@ function Navbar() {
                             smooth={true}
                             offset={-70}
                             duration={500}
-                            to="mySkills"
+                            to="mySkillss"
                             className="navbar--content"
                         >
                             Home Events
@@ -89,7 +89,7 @@ function Navbar() {
                             smooth={true}
                             offset={-70}
                             duration={500}
-                            to="MyPortfolio"
+                            to="mySkills"
                             className="navbar--content"
                         >
                             SGN Gardens Events

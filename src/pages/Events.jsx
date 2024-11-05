@@ -37,7 +37,7 @@ export default function Events() {
                             <img src={item.src} style={{width:"250px"}}  alt="Product Chain" />
                         </div>
                         <div className="skills--section--card--content">
-                            <h3 className="skills--section--title">{item.title}</h3>
+                            <h3 style={{fontFamily:"cursive"}} className="skills--section--title">{item.title}</h3>
                             <p style={{fontWeight:"bold", fontSize:"18px"}} className="skills--section--description">{item.description}</p>
                         </div>
                     </div>

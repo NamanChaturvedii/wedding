@@ -95,6 +95,20 @@ function Navbar() {
                             SGN Gardens Events
                         </Link>
                     </li>
+
+                    <li>
+                        <Link
+                            onClick={()=>window.open("https://drive.google.com/file/d/1KknAuIybCPICsOElC0BiHCAiLocan3E_/view?usp=sharing")}
+                            activeClass="navbar--active-content"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            className="navbar--content"
+                        >
+                            E card
+                        </Link>
+                    </li>
                     {/* <li>
                         <Link
                             onClick={closeMenu}
@@ -122,7 +136,7 @@ function Navbar() {
                 className="btn btn-outline-primary"
                 
             >
-                Contact Us
+                Contact 
             </Link>
         </nav>
     );

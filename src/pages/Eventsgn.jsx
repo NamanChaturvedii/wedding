@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Eventsgn() {
     return (
-        <section className="skills--section" id="mySkillss">
+        <section className="skills--section" id="mySkills">
             <div className="portfolio--container">
             <p style={{fontSize:"25px",fontFamily:"monospace"}} className="section--title">SGN Gardens & Banquets</p>
                 <h2 className="skills--section--heading">Events</h2>
@@ -31,14 +31,14 @@ export default function Eventsgn() {
                         Visit Location
                     </button>
                 </div>
-            <div className="skills--section--container">
+            <div  className="skills--section--container">
                 {data?.skills2?.map((item, index) => (
                     <div key={index} className="skills--section--card">
                         <div className="skills--section--img">
                             <img src={item.src} style={{width:"250px"}}  alt="Product Chain" />
                         </div>
                         <div className="skills--section--card--content">
-                            <h3 className="skills--section--title">{item.title}</h3>
+                            <h3 style={{fontFamily:"cursive"}} className="skills--section--title">{item.title}</h3>
                             <p style={{fontWeight:"bold", fontSize:"18px"}} className="skills--section--description">{item.description}</p>
                         </div>
                     </div>

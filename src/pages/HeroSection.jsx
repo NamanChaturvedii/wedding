@@ -4,14 +4,16 @@ export default function HeroSection() {
         <section id="heroSection" className="hero--section">
             <div className="hero--section--content--box">
                 <div className="hero--section--content">
-                    <p className="section--title" style={{fontSize:"25px"}}>Welcome, Om Prakash Chaturvedi Family invites  
-                        <br/> all the wonderfull people to enjoy the precious wedding
+                    <p className="section--title" style={{fontSize:"25px"}}>
+                        Om Prakash Chaturvedi Family 
+                        <br/> invites  
+                        <br/> you all to enjoy the precious wedding of
                     </p>
                     
                     <h1 className="hero--section--title">
-                        <span className="hero--section-title--color">Purva </span>{" "}
-                        <br /> weds
-                        <br /> Shikhar
+                        <span style={{fontFamily:"italic"}} className="hero--section-title--color">Purva </span>{" "}
+                        <br /> &
+                        <span style={{fontFamily:"italic"}}> <br/>Shikhar</span>
                     </h1>
                     <p style={{fontFamily:"cursive", fontSize:"27px"}} className="hero--section-description">
                         We are extremely happy to announce the wedding of our daughter Purva with Shikhar.

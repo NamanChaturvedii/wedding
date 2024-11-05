@@ -31,7 +31,7 @@ function Footer() {
                                 smooth={true}
                                 offset={-70}
                                 duration={500}
-                                to="mySkills"
+                                to="mySkillss"
                                 className="text-md"
                             >
                                 Home Events
@@ -44,7 +44,7 @@ function Footer() {
                                 smooth={true}
                                 offset={-70}
                                 duration={500}
-                                to="MyPortfolio"
+                                to="mySkills"
                                 className="text-md"
                             >
                                 SGN Gardens Events
@@ -178,7 +178,7 @@ function Footer() {
             </div>
             <hr className="divider" />
             <div style={{ display: 'flex', justifyContent: 'center' }} className="footer--content--container">
-                <p  className="footer--content">Made with 💖 by Naman Chaturvedi</p>
+                <p  className="footer--content">Made with 💖 by Naman Chaturvedi </p>
                 <div className="footer--social--icon">
                     {/* <ul>
                         <li>
@@ -222,6 +222,12 @@ function Footer() {
                         </li>
                     </ul> */}
                 </div>
+            </div>
+            <div>
+                <p>MOB:8769612896</p>
+            </div>
+            <div>
+                EMAIL: namanchaturvedi58@gmail.com
             </div>
         </footer>
     );

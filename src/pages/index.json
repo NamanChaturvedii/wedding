@@ -5,7 +5,7 @@
             "id": "1",
             "src": "./img/ganesh.png",
             "title": "Ganesh pujan ",
-            "description": "Date & Timings: 23 November 2024, 11AM onwards"
+            "description": "Date & Timings: 23 November 2024, 10AM onwards"
         },
         {
             "id": "2",
@@ -17,11 +17,11 @@
             "id": "3",
             "src": "./img/maga.png",
             "title": "Maangar  ",
-            "description": "Date & Timings: 24 November 2024, 11AM onwards"
+            "description": "Date & Timings: 24 November 2024, 7PM onwards"
         },
         {
             "id": "4",
-            "src": "./img/haldi.png",
+            "src": "./img/halid.jpg",
             "title": "Haldi and Mehendi ",
             "description": "Date & Timings: 25 November 2024, 11AM onwards"
         }
@@ -36,7 +36,7 @@
         {
             "id": "2",
             "src": "./img/carni.png",
-            "title": " Carnival  ",
+            "title": " Carnival (Phoolo ki Holi)  ",
             "description": "Date & Timings: 26 November 2024, 2PM onwards"
         },
         {
@@ -54,7 +54,7 @@
         
         {
             "id": "5",
-            "src": "./img/recc.png",
+            "src": "./img/rrrr.jpg",
             "title": "Reception ",
             "description": "Date & Timings: 27 November 2024, 7PM onwards"
         },

@@ -11,9 +11,9 @@ export default function HeroSection() {
                     </p>
                     
                     <h1 className="hero--section--title">
-                        <span style={{fontFamily:"italic"}} className="hero--section-title--color">Purva </span>{" "}
+                        <span style={{fontFamily:"monospace"}} className="hero--section-title--color">Purva </span>{" "}
                         <br /> &
-                        <span style={{fontFamily:"italic"}}> <br/>Shikhar</span>
+                        <span style={{fontFamily:"monospace"}}> <br/>Shikhar</span>
                     </h1>
                     <p style={{fontFamily:"cursive", fontSize:"27px"}} className="hero--section-description">
                         We are extremely happy to announce the wedding of our daughter Purva with Shikhar.
